@@ -1,4 +1,4 @@
-package com.eureka.common;
+package com.common;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,9 +7,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class SpringEurekaCommonApp {
+public class CommonApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringEurekaCommonApp.class, args);
+		SpringApplication.run(CommonApplication.class, args);
 	}
 }

@@ -1,4 +1,4 @@
-package com.eureka.common.security;
+package com.common.security;
 
 import org.springframework.beans.factory.annotation.Value;
 
